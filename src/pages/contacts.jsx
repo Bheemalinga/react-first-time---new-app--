@@ -13,7 +13,7 @@ const Contact = () => {
             <Contact3/>
     </div> */}
     <div>
-        <Products name = "Sai in Contacts"/>
+        <Products name = "Hi, in Contacts"/>
     </div>
     </>
 }

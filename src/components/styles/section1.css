@@ -1,10 +1,4 @@
-hello12{
-    display: flex;
-}
-
-
 .hello1, .hello2 {
-    flex: 1;
-    background-color: #f1f1f1;
-    padding: 20px;
+    background-color: greenyellow;
+    height: 100px;
 }

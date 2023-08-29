@@ -1,12 +1,13 @@
 import React from 'react'
+import '../styles/section3.css' //importing the css file, from another directory.
 
 const Section3 = () => {
     return(
         <div class = "hello56">
-            <div class = "hello5">
+            <div>
                 Hello5
             </div>
-            <div class = "hello6">
+            <div>
                 Hello6
             </div>
         </div>

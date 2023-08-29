@@ -1,18 +1,4 @@
-/* import React from 'react'
-
-import '../../styles/section3.css'
-
-const Section1 = () => {
-    return (
-        <div>
-            <div>
-                Hello5
-            </div>
-            <div>
-                Hello6
-            </div>
-        </div>
-    )
+.hello56 {
+    background-color: rgb(224, 86, 132);
+    height: 100px;
 }
-
-export default Section3; */

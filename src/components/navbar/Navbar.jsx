@@ -1,12 +1,17 @@
 import React from 'react'
+import '../styles/section4.css'
 import Products from '../../pages/Products'
 
 function Navbar() {
   return <>
-    <div>Website Navbar</div>
+  <div className="navbar">
     <div>
-      <Products name = "Sai in Navbar"/>
+      Website Navbar
     </div>
+    <div>
+      <Products name = "In Navbar"/>
+    </div>
+  </div>
   </>
 }
 
