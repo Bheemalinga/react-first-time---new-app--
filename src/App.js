@@ -8,6 +8,8 @@ import Footer from './components/footer/Footer'
 import Portfolio from './pages/Portfolio'
 import Website from './pages/Website'
 import Technology from './pages/Technology'
+import Products from './pages/Products'
+
 const App = () => {
   return (
     <Router>
@@ -19,7 +21,7 @@ const App = () => {
           <Route path="/portfolio" element={<Portfolio/>} />
           <Route path="/website" element={<Website/>} />
           <Route path="/technology" element={<Technology/>} />
-
+          <Route path="/products" element={<Products/>} />
         </Routes>
         <Footer/>
 
