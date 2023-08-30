@@ -9,6 +9,8 @@ import Portfolio from './pages/Portfolio'
 import Website from './pages/Website'
 import Technology from './pages/Technology'
 import Products from './pages/Products'
+import Child from './pages/Child'
+import Parent from './pages/Parent'
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
           <Route path="/website" element={<Website/>} />
           <Route path="/technology" element={<Technology/>} />
           <Route path="/products" element={<Products/>} />
+          <Route path="/child" element={<Child/>} />
+          <Route path="/parent" element={<Parent/>} />
         </Routes>
         <Footer/>
 
